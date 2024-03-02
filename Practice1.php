@@ -54,7 +54,7 @@ $totalPrice = calculateTotalPrice($items);
 echo "Total price: $" . $totalPrice;
 
 // Perform a series of string manipulations
-$inputString = "This is a poorly written program with little structure and readability.";
+$inputString = "This_is_a_poorly_written_program_with_little_structure_and_readability.";
 $modifiedString = manipulateString($inputString);
 echo "\nModified string: " . $modifiedString;
 
